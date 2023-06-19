@@ -2,9 +2,9 @@
 Web Application to cater the services required by pets and their owners.
 
 ## Project Collaborators :
-1)Kodithuwakku Y.S
+1)Dewmin T.Y 
 
-2)Dewmin T.Y  
+2)Kodithuwakku Y.S
 
 3)Lokuge P.P
 
