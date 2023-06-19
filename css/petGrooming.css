@@ -1,0 +1,532 @@
+* {
+    width: 100%;
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        
+}
+
+
+/* header section */
+
+.header {
+    width: 100%;
+    background-color: #525659;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    padding: 10px 0;
+    font-size: small;
+    font-size: xx-small;
+}
+
+.contactDetailsHeaderContainer {
+    margin-right: 1px;
+    width: calc(100% - 2px);
+    ;
+}
+
+.contactDetailsHeader {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+
+.contactDetails {
+    padding: 10px 5px;
+    flex: 4;
+    margin: 0 70px;
+}
+
+.socialMediaIcons {
+  /* background-color: red; */
+  align-items: center;
+  padding: 10px 15px;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+i.fa-facebook-square {
+  color: #4267B2;
+  /* background-color: #080808; */
+}
+
+i.fa-instagram {
+  color: #E1306C;
+}
+
+i.fa-twitter {
+  color: #1DA1F2;
+}
+
+i.fa-whatsapp {
+  color: #25D366;
+}
+
+.contactDetailsText {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.secondOne {
+    flex: 2;
+}
+
+.thirdOne {
+    flex: 5;
+}
+
+
+
+.navigationBar {
+    margin: 0 auto;
+    width: 90%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+    
+}
+
+.imageDiv {
+
+    display: flex;
+    width: 100px;
+    height: 80;
+}
+
+.imageDiv img {
+    margin: auto 0px;
+    height: 80px;
+}
+
+.brandName {
+    margin: auto 0;
+    color: white;
+    padding-left: 10px;
+}
+
+.leftItemNav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rightNavItemBar {
+    flex: 3;
+    display: flex;
+    
+}
+.rightNavItemBar ul li
+{
+    list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+    
+}
+.rightNavItemBar ul li
+{
+    text-decoration: none;
+	color: #FFFFFF;
+}
+.rightNavItemBar ul li ::after
+{
+    content: '';
+	height: 3px;
+	width: 0%;
+	background:#40BC9F;
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	transition: 0.3s;
+}
+.rightNavItemBar ul li:hover ::after
+{
+    width: 100%
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0 10px;
+}
+
+.menu {
+    text-align: center;
+    margin: auto auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    
+    
+}
+
+a:hover {
+    color: rgb(153, 136, 136);
+}
+.dropdown {
+    position:relative;
+    display:inline-block;
+    
+  }
+  
+  .dropbtn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-size: medium;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 171px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a{
+    display: block;
+    margin: 2% 0 10% 0;
+    position: relative;
+    left: 2vw;
+    background-color: hsl(214deg 2% 39% / 0%);
+    width: 98px;
+    text-decoration: none;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-size: 20px;
+    color: #f7f6f2;
+  }
+
+  .dropdown-content a:hover {
+    background-color: hsl(214deg 2% 39% / 0%);
+    color: #525659; 
+    font-weight: bolder;   
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* body section css */
+
+
+
+
+
+
+/* bottom section css */
+
+.foorterSection {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutSection {
+    flex: 4;
+    width: 90%;
+    padding: 10px;
+    /* background-color: rosybrown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyRightSection {
+    flex: 0.5;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #646464;
+    display: flex;
+    align-items: center;
+
+}
+
+.abouthContainerItem {
+    position: relative;
+    border-bottom: 2px red solid;
+    padding-bottom: 20px;
+
+}
+
+.abouthContainerItem h3 {
+
+    margin-right: 30px;
+}
+
+.aboutContainer {
+    position: relative;
+    margin-right: 30px;
+    /* background-color: rgb(23, 32, 28); */
+}
+
+
+.usefulLinkSectionUlContainer {
+    margin-right: 30px;
+    color: white;
+}
+
+/* .getInTouchSectionContainer{
+margin-left: 3;
+}  */
+
+.aboutHeadersSection {
+    display: flex;
+    
+}
+
+.aboutSectionDetailContainer {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    color: white;
+}
+
+.usefulLinkSectionUl {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.usefulLinkSectionUl li {
+    list-style: none;
+}
+
+
+
+.aboutContainer p {
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.aboutContainer a {
+    text-decoration: none;
+    color: red;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.leftFotter {
+    width: 100%;
+    
+
+}
+
+.leftFotter p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.textClass {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.textClass :hover
+{
+    color: red;
+}
+
+
+.fa {
+    width: 15px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+/* .fa-map-marker{
+    width: 15px;
+    color: #ada6a6;
+}
+
+.fa-phone{
+    width: 15px;
+    color: #ada6a6;
+} */
+
+.textClass a p {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 2px 0px;
+
+}
+
+
+/* Registration Page */
+
+.bodySection {
+    margin: 15px auto;
+    width: 75%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.userInputs {
+
+   
+    float: left;
+    width: 50%;
+    padding: 5px;
+    height: 390px;
+    margin-left: 25px;
+}
+
+.enterDetailsHeader {
+    margin: 0 auto;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(22, 149, 240);
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.enterDetailsPara {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+
+.textbox {
+    margin: auto;
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+}
+
+.createAccount {
+    /* margin: -5px 150px; */
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(248, 90, 33);
+    /* border-radius: 10px; */
+    padding: 10px 23px;
+    color: white;
+    border-color: #f85a20;
+    box-shadow: 1px 1px #7b7877;;
+}
+
+.ceatingParaInfo {
+   
+    font-size: 16px;
+}
+
+.creatingParaInfoMore {
+
+    font-size: 15px;
+    text-align: left;
+    padding-left: 71.5px;
+
+}
+
+
+
+/* ------------petGrooming---------------- */
+
+.petGroomingBodySection{
+    width: 98vw;
+    height: 82vh;
+    position: relative;
+}
+
+.petGroomingBodySection > div > h2{
+    position: relative;
+    top: 39px;
+    width: 400px;
+    left: 50px;
+    margin: 0;
+}
+
+.petGroomingBodySection > div > img{
+    width: 238px;
+    height: 263px;
+    position: relative;
+    left: 35px;
+    top: 57px;
+    border-radius: 10px;
+}
+
+.petGroomingBodySection>section{
+    position: absolute;
+    left: 400px;
+    top: 66px;
+    width: 924px;
+    height: 501px;
+}
+
+.petGroomingBodySection>section>div{
+    width: 1000px;
+    height: 420px;
+    background-color: #3d3c3c;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.petGroomingBodySection>section>div>h2{
+    position: relative;
+    top: 20px;
+    left: 16px;
+    color: white;
+}
+
+.petGroomingBodySection>section>div>p{
+    position: relative;
+    top: 56px;
+    left: 34px;
+    color: #ffffffc7;
+}
+
+.petGroomingBodySection>section>div>button{
+    width: 173px;
+    position: relative;
+    top: 155px;
+    left: 20px;
+    height: 34px;
+    background-color: rgb(22, 149, 240);
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+}
